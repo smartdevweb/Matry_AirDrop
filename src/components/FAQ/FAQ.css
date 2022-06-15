@@ -1,0 +1,38 @@
+.image-wrap {
+	width: 94%;
+	height: 100%;
+	margin: 15px;
+	border-radius: 20px;
+}
+
+.image-div {
+	width: 25%;
+	height: 100%;
+	position: relative;
+	margin-right: 15px;
+}
+.image-div img {
+	width: 100%;
+}
+
+.image-text {
+	position: absolute;
+	bottom: 10%;
+	left: 47px;
+	color: white;
+	font-size: 133%;
+}
+.image-close {
+	position: absolute;
+	top: 5%;
+	right: 20px;
+
+	font-size: 200%;
+	cursor: pointer;
+}
+.hint {
+	font-size: 20px;
+	color: rgb(145, 141, 141);
+	margin-bottom: 20px;
+	width: 70%;
+}

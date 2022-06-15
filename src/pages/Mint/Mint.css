@@ -1,0 +1,93 @@
+.mint_layout {
+	display: flex;
+	flex-direction: column;
+}
+
+.mint_header {
+	background-color: #7533e2;
+	padding: 70px 0;
+}
+
+.mint_header::after {
+	top: -20px;
+	left: 0;
+	width: 100%;
+	height: calc(100% + 50px);
+	content: " ";
+	opacity: 0.15;
+	position: absolute;
+	background-size: 78%;
+	background-image: url(../../assets/images/mint/header_bg.png);
+}
+
+.mint_body {
+	padding-bottom: 70px;
+	background-color: #f4f7f9;
+}
+
+.mint_form {
+	top: -70px;
+	border-radius: 16px;
+	filter: drop-shadow(0px 2px 24px rgba(0, 0, 0, 0.1));
+}
+
+.mint_form_title {
+	height: 70px;
+	line-height: 70px;
+	border-bottom: 1px solid #e8e8e8;
+	background-color: #f9f9fe;
+}
+
+.mint_form_field_title {
+	color: #7533e2;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.mint_form_file_upload {
+	border: 1px dashed #c7cbd9;
+	padding: 60px 10px;
+	border-radius: 6px;
+}
+
+.mint_form_uploaded_image {
+	border: 1px solid #c7cbd9;
+}
+
+.mint_form_uploaded_image > img {
+	width: 60px;
+	height: 60px;
+	object-fit: contain;
+	border: 1px solid #c7cbd9;
+}
+
+.spinner-border {
+	width: 60px;
+	height: 60px;
+}
+
+.mint_form_field_nft_type {
+	border: 1px solid #c7cbd9;
+	padding: 5px;
+}
+
+.mint_form_field_btn_selected {
+	background-color: #3e3b51;
+	color: white;
+}
+
+.mint_form_field_btn_selected:hover {
+	color: white;
+}
+
+.mint_form_field_btn_unselected {
+	background-color: #f6f6ff;
+}
+
+.form-control {
+	padding: 12px 1rem !important;
+}
+
+.form-control[readonly] {
+	background-color: transparent;
+}

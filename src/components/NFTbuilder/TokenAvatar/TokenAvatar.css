@@ -1,0 +1,25 @@
+.token-img {
+	width: 20%;
+	margin-right: 3px;
+}
+.arrow2 {
+	color: rgb(131, 127, 127);
+	font-size: 25px;
+}
+.arrow2:hover {
+	color: black;
+}
+.thumbnail {
+	display: flex;
+	align-items: flex-start;
+}
+.project-name {
+	font-size: 33px;
+	font-weight: 400;
+	display: inline-block;
+	height: 38px;
+}
+.faminus {
+	font-size: 20px;
+	position: absolute;
+}

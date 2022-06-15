@@ -1,0 +1,33 @@
+.inputbox {
+	width: 75%;
+	padding: 70px 0;
+	border: 1px solid #ccc;
+	border-radius: 210px;
+	box-sizing: border-box;
+	resize: vertical;
+	text-align: center;
+	font-size: 35px;
+	background-color: #303131;
+	color: white;
+}
+::placeholder {
+	color: white;
+	opacity: 1;
+}
+.inputbox:focus-visible {
+	outline-offset: unset;
+	outline: none;
+}
+
+.inputIcon {
+	position: absolute;
+	top: 50%;
+	left: 330px;
+	transform: translateY(-50%);
+	font-size: 30px;
+}
+
+.div-input {
+	margin-top: 5%;
+	position: relative;
+}

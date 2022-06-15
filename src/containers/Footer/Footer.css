@@ -1,0 +1,41 @@
+.footer_center {
+	border-top: solid 1px grey;
+}
+.footer_line {
+	width: 90%;
+	margin-bottom: 5px;
+	border: 1px solid white;
+}
+
+.company_license {
+	left: 20px;
+	color: rgb(145, 141, 141);
+	font-size: 12px;
+	margin-bottom: 16px;
+}
+
+.footer-link {
+	border-right: 1px solid #a1a1a1;
+	padding: 0 35px;
+	color: rgb(145, 141, 141);
+}
+.footer-link-last {
+	padding: 0 35px;
+	color: rgb(145, 141, 141);
+}
+.footer-link > span {
+	cursor: pointer;
+}
+
+/* .footer-lang {
+	padding: 0 20px;
+	color: rgb(145, 141, 141);
+}
+
+.footer-lang-selector > div {
+	padding-bottom: 0;
+}
+
+.footer-lang-selector ul {
+	bottom: 28px;
+} */

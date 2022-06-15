@@ -1,0 +1,6 @@
+{
+  "prettier.tabWidth": 4,
+  "prettier.useTabs": true,
+  "vetur.format.options.tabSize": 4,
+  "editor.insertSpaces": false
+}

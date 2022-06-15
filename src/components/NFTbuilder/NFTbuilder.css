@@ -1,0 +1,44 @@
+.NFT-div {
+	color: white;
+	text-align: center;
+	font-size: 29px;
+}
+
+.NFT-span {
+	color: rgb(145, 141, 141);
+	margin-left: 26px;
+	margin-top: 30px;
+	position: relative;
+}
+
+.NFT-span-bottom {
+	color: transparent;
+}
+
+.project-name {
+	font-size: 33px;
+	font-weight: 400;
+	display: inline-block;
+	height: 38px;
+}
+
+.NFT-mint-button {
+	background-color: #4a4a4a;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 20px;
+	border-color: transparent;
+	color: rgb(145, 141, 141);
+	height: 43px;
+	cursor: pointer;
+	margin-top: 60px;
+}
+
+.NFT-p {
+	margin-bottom: 0px;
+	font-size: 15px;
+}
+.faminus {
+	font-size: 20px;
+	position: absolute;
+}

@@ -1,0 +1,19 @@
+.option_container {
+	background: linear-gradient(
+			134.85deg,
+			rgba(0, 0, 0, 0.4) -9.62%,
+			rgba(255, 255, 255, 0.4) 136.92%
+		),
+		#4e555d;
+	box-shadow: inset 2.5px 2.5px 5px #35373e;
+	background-blend-mode: soft-light, normal;
+	border: 2px solid rgba(144, 239, 255, 0.1);
+}
+
+.option_container.active {
+	border: solid 1px #ed21fa;
+}
+
+.option_container:hover {
+	border: 2px solid rgba(144, 239, 255, 0.5);
+}

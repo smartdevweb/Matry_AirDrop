@@ -1,0 +1,82 @@
+.dragbox {
+	border: 1px;
+	border-style: dashed;
+	border-color: #cfcfcf;
+	width: 70%;
+	margin-top: 5%;
+	border-radius: 30px;
+	background-color: white;
+	position: relative;
+}
+
+.upload-ltn {
+	background-color: black;
+	color: white;
+	width: 19%;
+	height: 47px;
+	text-align: center;
+	border-top-left-radius: 2em;
+	border-bottom-left-radius: 2em;
+	cursor: pointer;
+}
+
+.uploader {
+	visibility: hidden;
+}
+.upload-rtn {
+	background-color: black;
+	color: white;
+	margin-left: 2px;
+	width: 50px;
+	height: 47px;
+	text-align: center;
+	border-top-right-radius: 2em;
+	border-bottom-right-radius: 2em;
+	cursor: pointer;
+}
+
+.upload-btn:hover .upload-ltn {
+	background-color: rgb(59, 58, 58);
+}
+.upload-btn:hover .upload-rtn {
+	background-color: rgb(59, 58, 58);
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 10px solid white;
+	margin: 20px;
+}
+.btn-label {
+	position: absolute;
+	top: 27%;
+	left: 43%;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 140%;
+}
+.input-box {
+	display: none;
+}
+.upload-btn {
+	margin-top: 90px;
+}
+.upload-hint {
+	margin-bottom: 50px;
+	margin-top: 15px;
+}
+.drag-drop-box {
+	height: 220px;
+	width: 98%;
+	color: black;
+	position: absolute;
+}
+.shape {
+	background-color: red;
+	width: 150px;
+	height: 50px;
+	clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+	border-radius: 10px;
+}

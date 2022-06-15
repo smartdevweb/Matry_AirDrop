@@ -1,0 +1,31 @@
+.div-NFT {
+	margin-top: 160px;
+	margin-left: 12px;
+}
+.langselector {
+	margin-top: 50px;
+	margin-bottom: 50%;
+	border-radius: 14px;
+	border: 2px solid #616e83;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+}
+.langselector button > span > span:first-child {
+	clip-path: circle(30%);
+	transform: scale(2);
+}
+
+.langselector button {
+	color: #616e83;
+	transform: scale(1.2);
+}
+.main-div {
+	width: 100%;
+	background-color: rgb(29, 31, 30);
+	position: relative;
+}
+.NFT-gradient {
+	background-image: linear-gradient(to bottom, #0e0e0eed, #303131);
+	min-width: 15%;
+}

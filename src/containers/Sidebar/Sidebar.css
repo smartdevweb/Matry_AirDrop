@@ -1,0 +1,55 @@
+.sidebar {
+	min-width: 15%;
+	user-select: none;
+	background-color: #1a191a;
+	align-items: center;
+	font-size: 22px;
+}
+.sidebar-linklist {
+	width: 72%;
+	height: 30%;
+}
+.sidebar-link {
+	border-radius: 10px;
+	cursor: pointer;
+	padding: 10px;
+	color: rgb(145, 141, 141);
+}
+.sidebar-linklist .sidebar-link:nth-child(2) svg path {
+	fill: #9c9a9a;
+}
+
+.sidebar-link-selected {
+	background-color: white;
+	font-weight: 500;
+	color: black;
+}
+
+.sidebar-menulist {
+}
+
+.sidebar-menu {
+	cursor: pointer;
+	padding: 5px 10px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: rgb(145, 141, 141);
+}
+.company_license {
+	color: rgb(145, 141, 141);
+	font-size: 16px;
+}
+.sidebar-menu-avatar {
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.logo {
+	justify-content: flex-start;
+	margin-top: 50px;
+	height: 58px;
+	width: 70%;
+}

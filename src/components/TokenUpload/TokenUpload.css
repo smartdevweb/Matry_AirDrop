@@ -1,0 +1,28 @@
+.avatar-img {
+	width: 70px;
+	height: 70px;
+	margin: 10px;
+}
+.avatar-input {
+	width: 90px;
+	height: 22px;
+	border-radius: 12px;
+	border-color: #9a9a9a;
+	border-style: solid;
+	font-size: 10px;
+	text-align: center;
+}
+
+.avatar-icon {
+	font-size: 22px;
+	margin: 0 5px;
+}
+.avatar-icon :hover {
+	color: grey;
+}
+.avatar-icon-box {
+	display: flex;
+	justify-content: center;
+	width: 90px;
+	cursor: pointer;
+}
